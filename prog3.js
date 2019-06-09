@@ -3,8 +3,7 @@ function generateTerms (callback) {
     // your code here that calls the supplied callback with a random numer every second
     var term = 1000;
     callback(term);
-   
-  
+ 
   }
  
   function callback(term) {
@@ -17,7 +16,6 @@ function generateTerms (callback) {
     console.log(`Number = ${num}, Count = ${count}`);
 
     },1000);
-   
   
   }
   
